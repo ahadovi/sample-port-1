@@ -1,0 +1,19 @@
+/*
+================================================
+1. Fonts - Grilroy
+================================================
+*/
+
+@font-face {
+    font-family:'grilroy';
+    src: url(../offline-fonts/Gilroy-Light.otf);
+    font-style: normal;
+    font-weight: 300;
+}
+
+@font-face {
+    font-family:'grilroy';
+    src: url(../offline-fonts/Gilroy-ExtraBold.otf);
+    font-style: normal;
+    font-weight: 800;
+}

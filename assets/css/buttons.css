@@ -1,0 +1,55 @@
+/*button*/
+.btn-hover {
+    display: inline-block;
+    font-weight: 300;
+    font-size: 15px;
+    background: -webkit-gradient(linear,right top, left top,from(#004ecd),color-stop(#00baff),to(#004ecd));
+    background: -webkit-linear-gradient(right,#004ecd,#00baff,#004ecd);
+    background: -o-linear-gradient(right,#004ecd,#00baff,#004ecd);
+    background: linear-gradient(to left,#004ecd,#00baff,#004ecd);
+    padding: 15px 30px;
+    border-radius: 35px;
+    -webkit-box-shadow: 5px 3px 10px 1px #a3c5f4;
+    box-shadow: 5px 3px 10px 1px #a3c5f4;
+    -webkit-transition: 0.6s;
+    -o-transition: 0.6s;
+    transition: 0.6s;
+    background-size: 200%;
+    transition: 0.6s;
+}
+
+.btn-hover:hover {
+    background-position:right;
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+.big-btn a {
+    background: #ff8c00;
+    display: inline-block;
+    padding: 12px 28px;
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 35px;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+}
+
+.big-btn a img {
+    width: 90px;
+    max-width: 90px;
+    margin: 0 5px;
+}
+
+.big-btn a span {
+    font-weight: 800;
+}
+
+.big-btn a:hover {
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+}

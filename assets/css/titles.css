@@ -1,0 +1,48 @@
+/*title*/
+
+.title h1 {
+    font-size: 56px;
+    font-weight: 300;
+    line-height: 1.2;
+    display: inline-block;
+    position: relative;
+    margin-bottom: 32px;
+}
+
+.title h1 span {
+    font-weight: 800;
+    display: block;
+}
+
+.title h1:before {
+    content: "";
+    position: absolute;
+    bottom: -28px;
+    left: 50%;
+    width: 70px;
+    height: 3px;
+    background: #00b0fa;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.fluid-title {
+    text-align: center;
+    background: -webkit-gradient(linear, left top, right top, from(#5123c6) , to(#b66fec));
+    background: -webkit-linear-gradient(left, #5123c6 , #b66fec);
+    background: -o-linear-gradient(left, #5123c6 , #b66fec);
+    background: linear-gradient(to right, #5123c6 , #b66fec);
+    padding: 50px 0;
+}
+
+.fluid-title h1 {
+    font-size: 56px;
+    font-weight: 300;
+    line-height: 1.2;
+    color: #fff;
+}
+
+.fluid-title h1 span {
+    font-weight: 800;
+}
